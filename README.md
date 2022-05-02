@@ -12,4 +12,4 @@ I utilized Twitch's API, TwitchIO, to connect to channels to save messages being
 2. Data cleaning
 3. Exploratory Data Analysis
 4. Training sentiment analysis model 
-5. Defining functions to produce live graphs 
+5. Defining functions to produce live graphs for chat sentiment 
