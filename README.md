@@ -15,8 +15,8 @@ I utilized Twitch's API, TwitchIO, paired with NLTK to connect to channels to sa
 5. Defining functions to produce live graphs for chat sentiment 
 
 ## File Descriptions
-ChatBot.py - Main file that runs the subsequent files, also specifies which channel to connect to 
-ChatConnection.py - This initiates the connection to the Twitch channel's chat to capture the messages sent by viewers
-ChatProcessing.py - Contains the functions used in ChatConnection.py to produce live graphs
-ChatSentimentAnalyzer.py - This contains the model that was trained with previously collected messages and used for live analysis
-.env - Contains your Twitch access token needed in order to connect to TwitchIO
+1. ChatBot.py - Main file that runs the subsequent files, also specifies which channel to connect to 
+2. ChatConnection.py - This initiates the connection to the Twitch channel's chat to capture the messages sent by viewers
+3. ChatProcessing.py - Contains the functions used in ChatConnection.py to produce live graphs
+4. ChatSentimentAnalyzer.py - This contains the model that was trained with previously collected messages and used for live analysis
+5. .env - Contains your Twitch access token needed in order to connect to TwitchIO
