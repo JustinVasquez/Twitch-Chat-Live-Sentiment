@@ -4,7 +4,7 @@ Analyzing a Twitch channel's chat sentiment in realtime (Currently in progress)
 Over the course of the pandemic, I began watching Twitch live streams as I found them to be a refreshing change of pace akin to a live podcast rather than a typical TV show. Apart from the rare prerecorded clip usually in collaboration with a sponsor, the content streamers broadcast is live along with genuine reactions to the games they playing, the videos they watch, and the other creators they interact with. As such, I wanted to track how viewers, colloquially known as "chat", react in realtime to the content being presented. With this, I'd like to assist up-and-coming streamers identify and capitalize on actions/content in their stream that leads to higher positive chat interaction by cross-referencing this when reviewing their streams.  
 
 ## Dataset
-I utilized Twitch's API, TwitchIO, paired with NLTK to connect to channels to save messages being sent in chat to train my model, as well as to connect for live visual and sentiment analysis. 
+I utilized Twitch's API, TwitchIO, to connect to channels and save messages being sent in chat to train my model, as well as to connect for live visual and sentiment analysis. 
 
 ## Analysis Process
 1. Collecting chat messsages and manually classifying (positive, neutral, negative)
